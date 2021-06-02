@@ -1,7 +1,7 @@
 const carros =[
     '{"nome" : "volks" , "valor" : "240k"}',
     '{"nome" : "ferrari"  , "valor" : "300k"}',
-    '{"nome" : "mercedes" , "valor" : "1k"}'
+    '{"nome" : "mercedes" , "valor" : "100k"}'
 ]
 //retornar um array apenas os preços
 
