@@ -30,6 +30,6 @@
                 console.log(array6)
             
     const array7 = ['joâo','pedro','lucas']
-    array7.pop()//remove o último elemento
-    array7.shift()//remove o primeiro elemento
-    array7.unshift('user')//adiciona na indice "0"
+    array7.pop()// remove o último elemento
+    array7.shift()// remove o primeiro elemento
+    array7.unshift('user')// adiciona na indice "0"
