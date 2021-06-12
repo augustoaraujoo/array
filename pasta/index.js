@@ -33,3 +33,9 @@
     array7.pop()// remove o último elemento
     array7.shift()// remove o primeiro elemento
     array7.unshift('user')// adiciona na indice "0"
+
+    //concat
+        const nomeH = ['augusto','pedro']   
+        const nameM = ['julia','rosa']
+        const todos = nomeH.concat(nameM)
+            console.log(todos)
