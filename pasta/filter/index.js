@@ -25,5 +25,4 @@ const vendaOk = produto=> produto.venda === 'ok'
 console.log(produto.filter(vendaOk))
 /*
 
-
 */

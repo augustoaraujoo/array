@@ -2,7 +2,6 @@
      //apenas visualizando o arary
         // console.log(`meus arrays = ${array}`)
 
-
     const array2 = [0,1,2,3,4,5]
         //adicionando o valor "66" no array2
             array2.push(66)
