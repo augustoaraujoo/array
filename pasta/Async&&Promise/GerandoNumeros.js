@@ -5,7 +5,8 @@ function gerarNumerosEntre(min,max){
         const aleatorio = parseInt(Math.random()* fator) + min
         resolve(aleatorio)
     })
-}gerarNumerosEntre(1,10)
+}
+gerarNumerosEntre(1,10)
    .then(num =>num*10)//gerarNumerosEntre(1,10)*10
    .then(console.log)
    
@@ -15,4 +16,6 @@ function gerarVariosNumeros(){
         gerarNumerosEntre(1,10),
         gerarNumerosEntre(10,20)
     ])
-}gerarVariosNumeros().then(numeros => console.log(numeros))
+}
+gerarVariosNumeros()
+.then(numeros => console.log(numeros))

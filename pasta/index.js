@@ -18,7 +18,7 @@
 
     const array5 ={
             nome:'userAll',
-             color: 'blue'
+            color: 'blue'
     }
     console.log(Object.entries(array5))
     // Object.values || Object.keys || Object.freeze \\
@@ -38,3 +38,20 @@
         const nameM = ['julia','rosa']
         const todos = nomeH.concat(nameM)
             console.log(todos)
+
+         ////////    
+        ////////      ////////
+       ////////      ////////   
+                    ////////
+const array = [0,1,2,3,4,5]
+
+function Idade(array){
+   return array.map((ar) => ar +2 )
+}
+function Busca(array){
+    return array.filter((p)=>{
+        return p === 2
+    })
+}
+console.log(Idade(array))
+console.log( Busca(array))

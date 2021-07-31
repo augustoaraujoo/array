@@ -1,15 +1,18 @@
-const person = new Promise((resolve)=>{
-    resolve({
-        cor:'branco',
-        altura:'1.70'
-    })
+const pro = new Promise((resolve)=>{
+     resolve({ idadePermitida: 18})
 })
-person.then(valorConta=>{
-    console.log(valorConta.altura/2)
-})
-person.then(valor=>{
-    console.log(valor.altura)
-})
-person.then((valor2)=>{
-    console.log(valor2.cor.toUpperCase())
-})
+
+ pro.then((value)=>{
+     const usuario = 10
+         if(usuario < value.idadePermitida){
+             return(
+                 console.log('negado'),
+                 getIdadeMenor()
+             )
+         }
+         else{console.log('acesso ok')}
+      })
+ function getIdadeMenor(){
+      console.log(`sua idade é menor`)
+ }
+
