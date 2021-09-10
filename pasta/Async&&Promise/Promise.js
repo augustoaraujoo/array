@@ -20,3 +20,4 @@ function getIdadeMenor(usuario) {
 const getIdadeMaior = (usuario) => {
   return console.log(`${usuario}`);
 };
+//👊
