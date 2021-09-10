@@ -11,25 +11,21 @@
 // const kid = new Person('carlos',10)
 // kid.calcAge()
 
+function getDadosToClass() {
+  const array = [1, 2, 3, 0, 5];
+  const valueUserPushToArray = 4;
 
-function getDadosToClass(){
-    const array = [1,2,3,0,5]
-    const valueUserPushToArray = 4
-    
-        array.push(valueUserPushToArray)
-        console.log(array)
+  array.push(valueUserPushToArray);
+  console.log(array);
 
-            
-            //ajustando o array
-            const arraySort = array.sort()
-            console.log(arraySort)   
+  //ajustando o array
+  const arraySort = array.sort();
+  console.log(arraySort);
 
-                //alterando o array
-                const contaArray = array.map((p) =>{
-                    return p/2
-                })
-                console.log(contaArray)
-
+  //alterando o array
+  const contaArray = array.map((p) => {
+    return p / 2;
+  });
+  console.log(contaArray);
 }
-getDadosToClass()
-
+getDadosToClass();
